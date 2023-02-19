@@ -21,25 +21,34 @@
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="index.css" />
     <title>Home / Mission Impossible</title>
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav>
-      <div id="nav_right"><a href="#">Home</a></div>
-      <div class="nav_left">
-        <a href="cast.html">Cast</a>
-        <a href="./series.html">Series</a>
-        <a href="./galery.html">Galery</a>
-        <a href="#">Contact</a>
+      <div id="nav_left"><a href="#">Home</a></div>
+      <div class="nav_right">
+        <div class="nav-link">
+          <a href="./cast.html">Cast</a>
+        </div>
+        <div class="nav-link">
+          <a href="./series.html">Series</a>
+        </div>
+        <div class="nav-link">
+          <a href="./galery.html">Galery</a>
+        </div>
+        <div class="nav-link">
+          <a href="#">Contact</a>
+        </div>
       </div>
     </nav>
 
     <!-- Bacground Video -->
     <video
       id="background-video"
-      src="./assets/mi_thriller.mp4"
+      src="./images/mi_thriller.mp4"
       autoplay
       loop
       muted
@@ -47,17 +56,30 @@
     >
       <p>
         Your browser doesn't support HTML video. Here is a
-        <a href="./assets/mi_thriller.mp4">link to the video</a> instead.
+        <a href="./images/mi_thriller.mp4">link to the video</a> instead.
       </p>
     </video>
 
     <!-- Main Section -->
     <main>
       <a href="./series.html">
-        <h1>Mission Impossible</h1>
+        <h2>Mission Impossible</h2>
       </a>
     </main>
 
     <!-- Footer to be: add footer content-->
+    <footer>
+      <div id="footer_left">
+        <p class="developers">Developed by Fatih - Eyup - Mark</p>
+      </div>
+      <div id="footer_middle">
+        <div class="footer_middle">
+          <p>&copy 2023</p>
+        </div>
+      </div>
+      <div id="footer_right">
+        <p class="developers">UU-Assignment-I</p>
+      </div>
+    </footer>
   </body>
 </html>
